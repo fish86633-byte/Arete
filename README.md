@@ -82,4 +82,4 @@ python tools/check_sources.py --original-root ../experiments/dams_u8_load_030
 
 原始实验目录、完整 FIFO、逐周期轨迹、Git 历史和输入银行仍保存在 `../experiments/`。本仓库只带轻量结果副本与来源索引，没有复制大体积证据，也没有重新运行正式实验。正式实验的对应关系与复现边界见 [论文复现说明](docs/PAPER_REPRODUCTION.md)。
 
-当前是本地研究仓库；尚未指定开源许可证或发布到远程平台。
+远程仓库：[fish86633-byte/Arete](https://github.com/fish86633-byte/Arete)。尚未指定开源许可证。
