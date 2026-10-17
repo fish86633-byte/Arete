@@ -1,0 +1,41 @@
+{
+  "status": "PASS",
+  "date": "2026-10-17",
+  "runtime": {
+    "python": "3.14.6",
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "note": "Local packaging/integration environment; not substituted for historical experiment environments."
+  },
+  "checks": {
+    "registered_original_source_hashes_matched": 35,
+    "packaged_source_hashes_matched": 35,
+    "original_ast_matches_after_import_relocation": true,
+    "saved_summary_hashes_matched": 6,
+    "original_synthetic_selection_plan_objective_and_fifo_equivalence": "PASS",
+    "independent_scalar_physics_and_fifo_audit": "PASS",
+    "zero_budget_registered_silent_fallback": "PASS",
+    "two_horizon_absolute_slot_and_fifo_continuity": "PASS",
+    "configuration_copy_and_load_scaling": "PASS",
+    "geometry_horizon_validation": "PASS",
+    "paper_parameters_match_original_registration": "PASS",
+    "unit_test_cases_passed": 6,
+    "wheel_built_without_network": true,
+    "wheel_installed_into_temporary_directory": true,
+    "installed_demo_run_outside_original_workspace": "PASS",
+    "legacy_top_level_modules_imported_by_installed_demo": [],
+    "original_source_git_status_after_work": "clean"
+  },
+  "work_scope": {
+    "new_formal_experiment_calls": 0,
+    "synthetic_planning_calls": 7,
+    "original_formal_sources_results_or_protocols_modified": false,
+    "paper_or_figures_modified": false,
+    "remote_created_or_pushed": false
+  },
+  "limits": [
+    "Synthetic equivalence checks do not rerun or revalidate all historical formal experiments.",
+    "Complete paper reproduction still requires the registered external input banks, drivers and trajectory evidence.",
+    "Only the listed local runtime was tested; no cross-platform performance claim is made."
+  ]
+}

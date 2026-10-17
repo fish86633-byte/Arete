@@ -1,0 +1,482 @@
+{
+  "status": "COMPLETE_ALL_FOUR_LOADS_TWO_TRAFFIC_REALIZATIONS",
+  "sources": [
+    {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_u8_load_030/results_load_030_resume_031_tail13/report/two_stream_equal_means.csv",
+      "sha256": "d5e1a26915cd0100d4beab7efc3442929b30dcebd14e995b851717fb5a2c9016"
+    },
+    {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_u8_load_030/results_load_030_resume_031_tail13/report/summary.json",
+      "sha256": "e11da4fcccd4a577e22d91ae9b588d2bdbfa5c653e945ae5cce671e8f8845e63"
+    },
+    {
+      "path": "/Users/fish/Desktop/波束/experiments/ga_bhtp_continuous_036/results_ga_036_ga1/report/summary.json",
+      "sha256": "64f745f622e5309454a63cfb3e2025a06355b68a816cb109a41ebb0e36b93eed"
+    }
+  ],
+  "curves": {
+    "RR": [
+      {
+        "rho": 0.2,
+        "method": "RR",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "RR"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 1910404444.4444447,
+        "mature_rt_expiry_rate": 0.28172452300110845,
+        "rt_success_p95_s": 0.285,
+        "all_satisfaction_mean": 0.7076398990658234,
+        "all_satisfaction_p10": 0.2443386732760926
+      },
+      {
+        "rho": 0.4,
+        "method": "RR",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "RR"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 2202060666.666667,
+        "mature_rt_expiry_rate": 0.42481134252501473,
+        "rt_success_p95_s": 0.295,
+        "all_satisfaction_mean": 0.45846506963352485,
+        "all_satisfaction_p10": 0.1394114547629351
+      },
+      {
+        "rho": 0.6,
+        "method": "RR",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "RR"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 2245698222.2222223,
+        "mature_rt_expiry_rate": 0.5325462097734727,
+        "rt_success_p95_s": 0.295,
+        "all_satisfaction_mean": 0.337223345833608,
+        "all_satisfaction_p10": 0.09255480944485955
+      },
+      {
+        "rho": 0.8,
+        "method": "RR",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "RR"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 2267585111.111111,
+        "mature_rt_expiry_rate": 0.6143302848821475,
+        "rt_success_p95_s": 0.3,
+        "all_satisfaction_mean": 0.2684706822674664,
+        "all_satisfaction_p10": 0.06880275968014211
+      }
+    ],
+    "GA": [
+      {
+        "throughput_bps": 3455143555.555556,
+        "mature_rt_expiry_rate": 0.11535631637185344,
+        "rt_success_p95_s": 0.26,
+        "all_satisfaction_mean": 0.945490932652435,
+        "all_satisfaction_p10": 0.9014925970769941,
+        "rho": 0.2,
+        "method": "GA",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "GA1"
+        ],
+        "base_seed": 351001,
+        "statistics": "two stream equal mean"
+      },
+      {
+        "throughput_bps": 5905538444.444445,
+        "mature_rt_expiry_rate": 0.17338672144388353,
+        "rt_success_p95_s": 0.27,
+        "all_satisfaction_mean": 0.904502715157532,
+        "all_satisfaction_p10": 0.7899548386481439,
+        "rho": 0.4,
+        "method": "GA",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "GA1"
+        ],
+        "base_seed": 351001,
+        "statistics": "two stream equal mean"
+      },
+      {
+        "throughput_bps": 7627305333.333334,
+        "mature_rt_expiry_rate": 0.2149566311836154,
+        "rt_success_p95_s": 0.275,
+        "all_satisfaction_mean": 0.8464294655033874,
+        "all_satisfaction_p10": 0.48343506863978264,
+        "rho": 0.6,
+        "method": "GA",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "GA1"
+        ],
+        "base_seed": 351001,
+        "statistics": "two stream equal mean"
+      },
+      {
+        "throughput_bps": 8792473555.555557,
+        "mature_rt_expiry_rate": 0.2547863423305834,
+        "rt_success_p95_s": 0.28,
+        "all_satisfaction_mean": 0.780260017827149,
+        "all_satisfaction_p10": 0.3244702644891331,
+        "rho": 0.8,
+        "method": "GA",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "GA1"
+        ],
+        "base_seed": 351001,
+        "statistics": "two stream equal mean"
+      }
+    ],
+    "BG": [
+      {
+        "rho": 0.2,
+        "method": "BG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "BG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 3893423555.5555553,
+        "mature_rt_expiry_rate": 0.024868912296077406,
+        "rt_success_p95_s": 0.185,
+        "all_satisfaction_mean": 0.9530184335782792,
+        "all_satisfaction_p10": 0.8376717520603318
+      },
+      {
+        "rho": 0.4,
+        "method": "BG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "BG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 7698570000.0,
+        "mature_rt_expiry_rate": 0.03845305324777691,
+        "rt_success_p95_s": 0.2,
+        "all_satisfaction_mean": 0.9385330290887511,
+        "all_satisfaction_p10": 0.8034956988313996
+      },
+      {
+        "rho": 0.6,
+        "method": "BG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "BG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 9710763777.777779,
+        "mature_rt_expiry_rate": 0.09046207583535779,
+        "rt_success_p95_s": 0.2025,
+        "all_satisfaction_mean": 0.6141486096516808,
+        "all_satisfaction_p10": 0.14930688436483786
+      },
+      {
+        "rho": 0.8,
+        "method": "BG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "BG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 8690225333.333332,
+        "mature_rt_expiry_rate": 0.272397905047208,
+        "rt_success_p95_s": 0.175,
+        "all_satisfaction_mean": 0.2586467562018324,
+        "all_satisfaction_p10": 0.0
+      }
+    ],
+    "TPG": [
+      {
+        "rho": 0.2,
+        "method": "TPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "TPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 3894546444.4444447,
+        "mature_rt_expiry_rate": 0.024638575598059202,
+        "rt_success_p95_s": 0.18,
+        "all_satisfaction_mean": 0.953453504750595,
+        "all_satisfaction_p10": 0.834348564057302
+      },
+      {
+        "rho": 0.4,
+        "method": "TPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "TPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 7771698666.666666,
+        "mature_rt_expiry_rate": 0.03275504445280591,
+        "rt_success_p95_s": 0.195,
+        "all_satisfaction_mean": 0.9455386562213577,
+        "all_satisfaction_p10": 0.8211967783861207
+      },
+      {
+        "rho": 0.6,
+        "method": "TPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "TPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 7619680888.888889,
+        "mature_rt_expiry_rate": 0.3446140069435033,
+        "rt_success_p95_s": 0.195,
+        "all_satisfaction_mean": 0.6053088330731581,
+        "all_satisfaction_p10": 0.0
+      },
+      {
+        "rho": 0.8,
+        "method": "TPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "TPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 5020889111.111111,
+        "mature_rt_expiry_rate": 0.6775205403513826,
+        "rt_success_p95_s": 0.1575,
+        "all_satisfaction_mean": 0.29962844516589904,
+        "all_satisfaction_p10": 0.0
+      }
+    ],
+    "DPG": [
+      {
+        "rho": 0.2,
+        "method": "DPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 3862795777.7777777,
+        "mature_rt_expiry_rate": 0.00227158132065104,
+        "rt_success_p95_s": 0.13,
+        "all_satisfaction_mean": 0.9780096291029683,
+        "all_satisfaction_p10": 0.9891769858341569
+      },
+      {
+        "rho": 0.4,
+        "method": "DPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 7080146000.0,
+        "mature_rt_expiry_rate": 0.002938199486090234,
+        "rt_success_p95_s": 0.135,
+        "all_satisfaction_mean": 0.9532693646972695,
+        "all_satisfaction_p10": 0.9058345173992176
+      },
+      {
+        "rho": 0.6,
+        "method": "DPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 9142230444.444445,
+        "mature_rt_expiry_rate": 0.0035819468672880573,
+        "rt_success_p95_s": 0.135,
+        "all_satisfaction_mean": 0.8856590260389909,
+        "all_satisfaction_p10": 0.6417184568711873
+      },
+      {
+        "rho": 0.8,
+        "method": "DPG",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DPG"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 10016056888.88889,
+        "mature_rt_expiry_rate": 0.004783863114263395,
+        "rt_success_p95_s": 0.145,
+        "all_satisfaction_mean": 0.7565385142945807,
+        "all_satisfaction_p10": 0.4425185986713282
+      }
+    ],
+    "DAMS": [
+      {
+        "rho": 0.2,
+        "method": "DAMS",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DAMS"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 3901246888.888889,
+        "mature_rt_expiry_rate": 0.01912359784052335,
+        "rt_success_p95_s": 0.18,
+        "all_satisfaction_mean": 0.9652952632115583,
+        "all_satisfaction_p10": 0.8701346574636606
+      },
+      {
+        "rho": 0.4,
+        "method": "DAMS",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DAMS"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 7809699111.111111,
+        "mature_rt_expiry_rate": 0.016251200184545792,
+        "rt_success_p95_s": 0.18,
+        "all_satisfaction_mean": 0.9699695438647483,
+        "all_satisfaction_p10": 0.8948701599211306
+      },
+      {
+        "rho": 0.6,
+        "method": "DAMS",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DAMS"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 11725976444.444445,
+        "mature_rt_expiry_rate": 0.013040244865119167,
+        "rt_success_p95_s": 0.185,
+        "all_satisfaction_mean": 0.9750828263055549,
+        "all_satisfaction_p10": 0.9194419819687736
+      },
+      {
+        "rho": 0.8,
+        "method": "DAMS",
+        "business_stream_indices": [
+          0,
+          1
+        ],
+        "scheduling_identities": [
+          "DAMS"
+        ],
+        "statistics": "two stream equal mean",
+        "throughput_bps": 13424259333.333332,
+        "mature_rt_expiry_rate": 0.13964149019043104,
+        "rt_success_p95_s": 0.18,
+        "all_satisfaction_mean": 0.8786983952232335,
+        "all_satisfaction_p10": 0.46765329525658417
+      }
+    ]
+  },
+  "metrics": [
+    {
+      "source_key": "throughput_bps",
+      "plot_scale": 1e-09,
+      "axis_label": "Throughput (Gbit/s)"
+    },
+    {
+      "source_key": "mature_rt_expiry_rate",
+      "plot_scale": 100,
+      "axis_label": "RT loss rate (\\%)"
+    },
+    {
+      "source_key": "rt_success_p95_s",
+      "plot_scale": 1000,
+      "axis_label": "RT delay P95 (ms)"
+    },
+    {
+      "source_key": "all_satisfaction_mean",
+      "plot_scale": 100,
+      "axis_label": "Mean satisfaction (\\%)"
+    }
+  ],
+  "quantile_means_not_pooled": true,
+  "frozen_experiment_modified": false,
+  "point_style": "uniform markers; every load uses two traffic realizations",
+  "new_planning_Replay_simulation_verify_calls": 0,
+  "cycles_per_stream": 200,
+  "warmup_s": 2,
+  "quality_duration_per_stream_s": 18,
+  "aggregation": "equal mean of two traffic realizations; GA uses fixed base seed 351001",
+  "methods": [
+    "RR",
+    "GA",
+    "BG",
+    "TPG",
+    "DPG",
+    "DAMS"
+  ],
+  "replaced_baseline": "Random replaced by GA; historical results retained separately"
+}

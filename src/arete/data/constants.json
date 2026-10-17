@@ -1,0 +1,7 @@
+{
+  "earth_radius_m": 6371000.0,
+  "earth_mu_m3_s2": 398600441800000.0,
+  "earth_rotation_rad_s": 7.292115e-05,
+  "speed_of_light_m_s": 299792458.0,
+  "boltzmann_j_k": 1.380649e-23
+}

@@ -1,0 +1,193 @@
+{
+  "cycles": 200,
+  "warmup_cycles": 20,
+  "warmup_s": 2,
+  "quality_duration_s": 18,
+  "traffic_realizations": 2,
+  "rho": 0.4,
+  "cells": 400,
+  "planes": [
+    12,
+    24,
+    36
+  ],
+  "satellites_per_plane": 22,
+  "methods": [
+    "RR",
+    "GA",
+    "BG",
+    "TPG",
+    "DPG",
+    "DAMS"
+  ],
+  "GA_base_seed": 351001,
+  "aggregation": "Equal mean of two traffic realizations; GA uses fixed base seed 351001. P95 is the mean of per-run quantiles, not pooled.",
+  "sources": {
+    "aggregate_quality.json": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/aggregate_quality.json",
+      "sha256": "53ab4ca53f30460f703d14b8f9afe5259d3dede229c97e5746ba000e6d91807c"
+    },
+    "REPORT_COMPLETE.json": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/REPORT_COMPLETE.json",
+      "sha256": "ae3b99e6f5ee6b6bc3bf8b176e78e731639c7aba120bd0208398b5e36918f30f"
+    },
+    "GA_summary.json": {
+      "path": "/Users/fish/Desktop/波束/experiments/ga_bhtp_continuous_036/results_ga_036_ga1/report/summary.json",
+      "sha256": "64f745f622e5309454a63cfb3e2025a06355b68a816cb109a41ebb0e36b93eed"
+    },
+    "S12_seed0_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S12_seed0_saved_metrics.json.gz",
+      "sha256": "b428cd6d37818ec7d2b892c787740b257da5397979e9e0742f9f6d2cc8063e17"
+    },
+    "S12_seed1_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S12_seed1_saved_metrics.json.gz",
+      "sha256": "2e2984748d447fd41e7f107448ae08979c4b43d0de6ae79a321111764b60017a"
+    },
+    "S24_seed0_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S24_seed0_saved_metrics.json.gz",
+      "sha256": "98f74681abea6a47b63a7835291ab192fa0f1b1ca95c837ed144241648e0d7b2"
+    },
+    "S24_seed1_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S24_seed1_saved_metrics.json.gz",
+      "sha256": "918616c427697a97d5cf10da655d1e7c53e9df73efd1b0ce013a3ffbbc543349"
+    },
+    "S36_seed0_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S36_seed0_saved_metrics.json.gz",
+      "sha256": "72d857f6e826c1577abf57894fac7b1b89b008d07638e34bfc829b074ea442cb"
+    },
+    "S36_seed1_saved_metrics.json.gz": {
+      "path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/S36_seed1_saved_metrics.json.gz",
+      "sha256": "06800ef06c32d6ad446afd610b53831aad2678ebb4a1e7e51651e41c8d3617d5"
+    }
+  },
+  "series": {
+    "throughput_bps": {
+      "RR": [
+        1030799777.7777777,
+        2202060666.666667,
+        2308820666.6666665
+      ],
+      "GA": [
+        4417211777.777779,
+        5905538444.444445,
+        6705704000.0
+      ],
+      "BG": [
+        4597721111.111111,
+        7698570000.0,
+        7793958888.888889
+      ],
+      "TPG": [
+        3549501555.5555553,
+        7771698666.666666,
+        7828769777.777778
+      ],
+      "DPG": [
+        4575709111.111111,
+        7080146000.0,
+        7514723777.777779
+      ],
+      "DAMS": [
+        6889828222.222222,
+        7809699111.111111,
+        7835125777.777779
+      ]
+    },
+    "mature_rt_expiry_rate": {
+      "RR": [
+        0.6771042726903929,
+        0.42481134252501473,
+        0.48708802874849066
+      ],
+      "GA": [
+        0.3794750089203662,
+        0.17338672144388353,
+        0.06495683782320105
+      ],
+      "BG": [
+        0.32823604753376207,
+        0.03845305324777691,
+        0.007762355126771116
+      ],
+      "TPG": [
+        0.56671645628149,
+        0.03275504445280591,
+        0.006698881628552084
+      ],
+      "DPG": [
+        0.17326473901485262,
+        0.002938199486090234,
+        0.00012539876362440344
+      ],
+      "DAMS": [
+        0.1880585586428684,
+        0.016251200184545792,
+        0.0027804245582678513
+      ]
+    },
+    "rt_success_p95_s": {
+      "RR": [
+        0.295,
+        0.295,
+        0.2925
+      ],
+      "GA": [
+        0.2825,
+        0.27,
+        0.2525
+      ],
+      "BG": [
+        0.225,
+        0.2,
+        0.1375
+      ],
+      "TPG": [
+        0.2025,
+        0.195,
+        0.13
+      ],
+      "DPG": [
+        0.21,
+        0.135,
+        0.085
+      ],
+      "DAMS": [
+        0.2375,
+        0.18,
+        0.13
+      ]
+    },
+    "all_satisfaction_mean": {
+      "RR": [
+        0.23152049442099235,
+        0.45846506963352485,
+        0.438641509279656
+      ],
+      "GA": [
+        0.7414331979460368,
+        0.904502715157532,
+        0.9623233185447231
+      ],
+      "BG": [
+        0.30346485043367577,
+        0.9385330290887511,
+        0.9748368927976894
+      ],
+      "TPG": [
+        0.3654169519875864,
+        0.9455386562213577,
+        0.9770095177492333
+      ],
+      "DPG": [
+        0.5488170488369948,
+        0.9532693646972695,
+        0.9890486651636285
+      ],
+      "DAMS": [
+        0.8105158376799942,
+        0.9699695438647483,
+        0.9876995149508622
+      ]
+    }
+  }
+}

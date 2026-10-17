@@ -1,0 +1,85 @@
+{
+  "workspace_root_at_import": "/Users/fish/Desktop/波束",
+  "note": "Archive HEADs locate saved repositories; they are not algorithm version identities.",
+  "formal_experiments_rerun": false,
+  "new_formal_planning_calls": 0,
+  "raw_trajectories_and_input_banks_copied": false,
+  "historical_method_names_preserved": true,
+  "method_aliases": {
+    "DAMS": "Arete",
+    "M1-E": "Arete",
+    "M1E": "Arete"
+  },
+  "assets": [
+    {
+      "workspace_relative_path": "experiments/dams_u8_load_030/results_load_030_resume_031_tail13/report/two_stream_equal_means.csv",
+      "original_path": "/Users/fish/Desktop/波束/experiments/dams_u8_load_030/results_load_030_resume_031_tail13/report/two_stream_equal_means.csv",
+      "repository_path": "paper_results/load_two_stream_equal_means.csv",
+      "sha256": "d5e1a26915cd0100d4beab7efc3442929b30dcebd14e995b851717fb5a2c9016",
+      "bytes": 20148,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    },
+    {
+      "workspace_relative_path": "experiments/dams_constellation_recovery_035/results_recovery_035/report/aggregate_quality.csv",
+      "original_path": "/Users/fish/Desktop/波束/experiments/dams_constellation_recovery_035/results_recovery_035/report/aggregate_quality.csv",
+      "repository_path": "paper_results/constellation_200_aggregate_quality.csv",
+      "sha256": "e5dcfc588abf0f1f2eaa17c2f1278065f90fcc63a064bc1c66571d2965971645",
+      "bytes": 3800,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    },
+    {
+      "workspace_relative_path": "experiments/ga_bhtp_continuous_036/results_ga_036_ga1/report/two_stream_equal_means.csv",
+      "original_path": "/Users/fish/Desktop/波束/experiments/ga_bhtp_continuous_036/results_ga_036_ga1/report/two_stream_equal_means.csv",
+      "repository_path": "paper_results/GA1_two_stream_equal_means.csv",
+      "sha256": "53030dbd3af7a9196fa7e775c63c2f846c8d83d636769464a071231e74426c47",
+      "bytes": 1447,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    },
+    {
+      "workspace_relative_path": "experiments/pcqr_bh_r3_local_repair/results_supplement_013/report/nx_paired.csv",
+      "original_path": "/Users/fish/Desktop/波束/experiments/pcqr_bh_r3_local_repair/results_supplement_013/report/nx_paired.csv",
+      "repository_path": "paper_results/NX_six_paired_inputs.csv",
+      "sha256": "21213a690c95ab92c77fbbe71baa6b2807e09ea80d8ac9d4a96a72d103fb3808",
+      "bytes": 31365,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    },
+    {
+      "workspace_relative_path": "Demand_Aware_Marginal_Schedulingfor_Multi_Satellite_Beam_Hopping/figures/load_plot_data.json",
+      "original_path": "/Users/fish/Desktop/波束/Demand_Aware_Marginal_Schedulingfor_Multi_Satellite_Beam_Hopping/figures/load_plot_data.json",
+      "repository_path": "paper_results/load_plot_data.json",
+      "sha256": "57416d23901f8536aba692e0e43ad774b9a12dee8768540c192e72f016b0ece7",
+      "bytes": 13570,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    },
+    {
+      "workspace_relative_path": "Demand_Aware_Marginal_Schedulingfor_Multi_Satellite_Beam_Hopping/figures/constellation_plot_data.json",
+      "original_path": "/Users/fish/Desktop/波束/Demand_Aware_Marginal_Schedulingfor_Multi_Satellite_Beam_Hopping/figures/constellation_plot_data.json",
+      "repository_path": "paper_results/constellation_plot_data.json",
+      "sha256": "602d43a90ec632a37caa0061d7e428df85ca38347a5730acd7f038b85e373a4b",
+      "bytes": 5385,
+      "copy_mode": "byte-identical; no new planning, replay, or aggregation"
+    }
+  ],
+  "repositories": {
+    "dams_u8_load_030": {
+      "workspace_relative_path": "experiments/dams_u8_load_030",
+      "archive_head_at_import": "320fdfa0ceab2ab7891857f9e6867d577f67c474",
+      "git_metadata_available": true
+    },
+    "dams_constellation_recovery_035": {
+      "workspace_relative_path": "experiments/dams_constellation_recovery_035",
+      "archive_head_at_import": null,
+      "git_metadata_available": false
+    },
+    "ga_bhtp_continuous_036": {
+      "workspace_relative_path": "experiments/ga_bhtp_continuous_036",
+      "archive_head_at_import": "733f3b73ffeaea567b985165e294daddf41f70eb",
+      "git_metadata_available": true
+    },
+    "pcqr_bh_r3_local_repair": {
+      "workspace_relative_path": "experiments/pcqr_bh_r3_local_repair",
+      "archive_head_at_import": "4c39ab78075ef3ff87b83eeb02ceb255d0202582",
+      "git_metadata_available": true
+    }
+  }
+}
